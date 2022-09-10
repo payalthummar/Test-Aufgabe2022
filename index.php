@@ -56,8 +56,6 @@
                         <button type="submit" name="time">What time is it?</button><br>
                     </div>
                 </form>
-                
-
                 </div>
             </div>
         </div>
