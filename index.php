@@ -23,7 +23,7 @@
                                 header("Location: $url");
                             }
 
-                        ?>
+?>
 
 <!doctype html>
 <html lang="en">
