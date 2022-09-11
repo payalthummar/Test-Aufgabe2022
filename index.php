@@ -1,5 +1,5 @@
 <?php
-
+                    /* POST Method */
                             if(isset($_POST['hello']))
                             {
                                 $hi = "Hello";
@@ -17,7 +17,7 @@
 
                             if(isset($_POST['time']))
                             {
-                                date_default_timezone_set('Europe/London'); //to display London date and time
+                                date_default_timezone_set('Europe/London'); //to display time of London
                                 $time = date("H:ia e");
                                 $url = "test.php?time=" . $time;
                                 header("Location: $url");

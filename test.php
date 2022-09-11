@@ -19,7 +19,7 @@
                             <h1>Result</h1>
                         </div>
                         <div class="card-body">
-                            
+                            <!-- Get Method -->
                             <?php
                                         if(isset($_GET['hello']))
                                         {
@@ -36,7 +36,7 @@
                                         }
                                         if(isset($_GET['time']))
                                         {
-                                            date_default_timezone_set('Europe/London'); //to display London date and time
+                                            date_default_timezone_set('Europe/London'); //to display time of London
                                             $time = date("H:ia ");
                                             echo "What time is it?". "<br>";
                                             echo "It is " .$time . " in London.";
